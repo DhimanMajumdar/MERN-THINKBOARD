@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 5001;
 
 dotenv.config();
 const app = express();
+
+// middleware
+app.use(express.json());
 app.use("/api/notes", notesRouter);
 
 app.listen(PORT, () => {
