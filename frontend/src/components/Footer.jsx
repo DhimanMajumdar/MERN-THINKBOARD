@@ -2,7 +2,7 @@ import { Github, Twitter, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-6 py-8 bg-base-200 text-base-content border-t border-base-300">
+    <footer className="w-full px-6 py-8 bg-base-300 text-base-content border-t border-base-content">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 w-full max-w-7xl mx-auto">
         <div className="text-center md:text-left">
           <h2 className="font-bold text-lg tracking-wide">ThinkBoard</h2>
