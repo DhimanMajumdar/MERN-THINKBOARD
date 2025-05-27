@@ -9,10 +9,10 @@ const App = () => {
   return (
     <div
       data-theme="coffee"
-      className="relative min-h-screen w-full bg-transparent flex flex-col"
+      className="relative min-h-screen w-full  flex flex-col"
     >
       {/* Coffee-themed radial background */}
-      <div className="absolute inset-0 -z-10 h-full w-full blur-sm opacity-80 animate-pulse [background:radial-gradient(120%_120%_at_50%_20%,#1c0f0a_40%,#3e2723_70%,#d6ad6080_100%)]" />
+      <div className="absolute inset-0 -z-10 h-full w-full blur-sm opacity-80   [background:radial-gradient(120%_120%_at_50%_20%,#1c0f0a_40%,#3e2723_70%,#d6ad6080_100%)]" />
 
       <main className="flex-grow">
         <Routes>
